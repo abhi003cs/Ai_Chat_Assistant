@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chat Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="../../AWASOMELIBRARY/fontawesome/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ================= Sidebar ================= -->
+
+      <aside class="sidebar">
+        <div class="logo">
+          <img src="logo.png" alt="Logo" />
+          <h2>AI Chat Assistant</h2>
+        </div>
+
+        <button class="new-chat">
+          <i class="fa-solid fa-plus"></i>
+          New Chat
+        </button>
+
+        <button class="delete-all-chat">
+    <i class="fa-solid fa-trash"></i>
+    Delete All Chats
+</button>
+
+        <div class="search-bar">
+          <input type="search" placeholder="Search chats" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="history">
+    <h3>Recent Chats</h3>
+
+    <ul class="history-list">
+
+    </ul>
+</div>
+
+        <div class="bottom-menu">
+          <button class="profile-btn">
+            <i class="fa-regular fa-user"></i>
+                 Profile
+          </button>
+        </div>
+        
+      </aside>
+
+      <!-- Main Chat Area -->
+
+      <div class="main-content">
+        <!-- Heading -->
+       <header class="chat-header">
+    <h2>AI Assistant</h2>
+
+    <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </div>
+</header>
+
+        <!-- Welcome Screen -->
+        <section class="welcome-screen">
+          <h1>Hello, Abhi 👋</h1>
+          <p>How can I help you today?</p>
+
+          <!-- Suggestion Cards -->
+          <div class="suggestion-container">
+            <div class="suggestion-card">
+              <i class="fa-solid fa-code"></i>
+              <span>Explain Javascript Closure</span>
+            </div>
+
+            <div class="suggestion-card">
+              <i class="fa-solid fa-code"></i>
+              <span>Create a portfolio website</span>
+            </div>
+
+            <div class="suggestion-card">
+              <i class="fa-solid fa-code"></i>
+              <span>build weather app</span>
+            </div>
+
+            <div class="suggestion-card">
+              <i class="fa-solid fa-code"></i>
+              <span>Ai project ideas</span>
+            </div>
+          </div>
+        </section>
+
+     <!-- Chat container -->
+    <section class="chat-container">
+
+        <!-- Messages will appear here dynamically -->
+
+    </section>
+
+    <!--  Input area -->
+    <footer class="chat-input-area">
+
+        <div class="chat-input">
+
+           
+
+            <textarea placeholder="Ask anything..." rows="1"></textarea>
+
+            <button class="mic-btn">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+
+            <button class="send-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </footer>
+
+      </div>
+
+    </div>
+
+    <!-- Profile Popup -->
+
+    <div class="profile-modal">
+
+    <div class="profile-card">
+
+        <h2>Profile</h2>
+
+        <div class="profile-detail">
+            <label>Name</label>
+            <p id="profile-name">Abhishek Ranjan</p>
+        </div>
+
+        <div class="profile-detail">
+            <label>Email</label>
+            <p id="profile-email">abhishek111@gmail.com</p>
+        </div>
+
+        <button class="close-profile">
+            Close
+        </button>
+
+    </div>
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
