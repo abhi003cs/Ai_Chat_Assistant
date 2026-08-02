@@ -14,7 +14,7 @@ An AI-powered Chat Assistant built using **HTML**, **CSS**, **JavaScript**, and 
 
 ![Chat](screenshots/chat.png)
 
-### Dark Theme
+### Light Theme
 
 ![light Theme](screenshots/light-theme.png)
 
