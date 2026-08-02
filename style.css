@@ -275,7 +275,7 @@ img{
 }
 
 
-/* - Main Chat Area  */
+/* ------ Main Chat Area -----*/
 
 .main-content{
     flex:1;
@@ -352,7 +352,7 @@ img{
     color:var(--secondary-text);
 }
 
-/* suggestion card  */
+/* --------suggestion card----------*/
 
 .suggestion-container{
      width:100%;
@@ -796,7 +796,7 @@ img{
 }
 
 
-/* ================= Phones ================= */
+/* -------------- Phones -------------- */
 
 @media (max-width:480px){
 
@@ -851,7 +851,7 @@ img{
     }
 
 }
-/* ================= Large Phones ================= */
+/* -------------- Large Phones -------------- */
 
 @media (min-width:481px) and (max-width:768px){
 
@@ -877,7 +877,7 @@ img{
     }
 
 }
-/* ================= Tablets ================= */
+/* -------------- Tablets -------------- */
 
 @media (min-width:769px) and (max-width:1024px){
 
